@@ -52,7 +52,6 @@ p#marca,p#precio,p#descripción,p#descuento{
     vertical-align: bottom;
 }
 div.producto{ 
-    height: 382.12px;
     width: 322.27px;
     background-color: white;
     margin-bottom: 10px;
