@@ -46,18 +46,14 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
-#footer{
-    text-align: center;
-    font-size: 0.7em;
-    font-family: Helvetica;
-    color: black;
-}
 p#marca,p#precio,p#descripción,p#descuento{
-    text-align: left;
     text-align: start;
     padding-left:10px;
+    vertical-align: bottom;
 }
-.producto{ /*eliminar el color rojo*/
+div.producto{ 
+    height: 382.12px;
+    width: 322.27px;
     background-color: white;
     margin-bottom: 10px;
     padding-left: 0px;
@@ -70,16 +66,16 @@ td{
     padding-left:10px ;
     vertical-align: top;
 }
-
-.producto img{
-    height:227.53px;
+img.productoIM{
+    position: relative;
+    height: 227.53px;
     width: 227.53px;
     background-color: white;
     display: block;
     padding-top: 10px;
     margin: 0 auto;
 }
-a.btn{
+a.btn_contactanos{
     display: block;
     text-align: center;
     font-size: 25px;
@@ -87,4 +83,16 @@ a.btn{
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
+}
+#footer{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: Helvetica;
+    color: black;
+}
+img.wsp_imagen{
+    width: 64px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
